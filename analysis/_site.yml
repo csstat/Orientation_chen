@@ -1,7 +1,7 @@
-name: "Orientation_chen"
+name: Orientation_chen
 output_dir: ../docs
 navbar:
-  title: "Orientation_chen"
+  title: Orientation_chen
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/csstat/Orientation_chen
 output:
   workflowr::wflow_html:
     toc: yes
